@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
       - name: flask-container
-        image: manas28/test_repo:lts
+        image: manas28/test-flask:1.0beta
         ports:
         - containerPort: 5000
