@@ -16,7 +16,7 @@ with this command docker image is build, we can check it through this command,
     
 Now, we have to run this image to create docker container out of it,
 
-    $ sudo docker run -it -p 5000:5000 --network=host <image_name:tag>
+    $ sudo docker run -it -p 5000:5000 <image_name:tag>
     
 flask app uses 5000 port by default and "--network=host" tells our flask app to run on localhost. With this run command our container is up and running. We can see it by this command,
     
