@@ -1,6 +1,6 @@
 # flask-app-task
 
-Firstly, we git clone the notejam/flask repo "https://github.com/komarserjio/notejam/tree/master/flask" to our directory (web-flask).
+Firstly, we git clone the notejam/flask repo "https://github.com/komarserjio/notejam.git" to our directory (web-flask).
 
 Then, we create a docker file to dockerised this flask web app. For this,
 
